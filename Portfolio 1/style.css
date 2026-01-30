@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero */
+.hero {
+    background: #555;
+    color: white;
+    display: flex;
+    padding: 60px 80px;
+    align-items: center;
+}
+
+.hero-text {
+    width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.hero-img img {
+    width: 200px;
+}
+
+/* Button */
+.btn {
+    background: #007bff;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* About */
+.about {
+    display: flex;
+    padding: 60px 80px;
+    background: #f4f4f4;
+}
+
+.about-img img {
+    width: 250px;
+    margin-right: 40px;
+}
+
+/* Skills */
+.skills {
+    display: right;
+    padding: 60px;
+    text-align: center;
+    background: #555;
+}
+.skill-text h2{
+    text-align: left;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: left;
+    gap: 30px;
+}
+
+
+.skill-box {
+    background: grey;
+    padding: 20px;
+    width: 150px;
+}
+.skill-box-1{
+    background:#555;
+    padding: 20px;
+    width:150px;
+}
+.skill-box-2{
+    background:#555;
+    padding: 20px;
+    width:150px;
+}
+.skill-img img{
+    width:300px;
+    justify-content: right;
+}
+
+/* Projects */
+.projects {
+    padding: 60px;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+.projects-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.project-box {
+    background: white;
+    padding: 15px;
+    width: 250px;
+}
+
+.project-box img {
+    width: 100%;
+}
+
+/* Resume */
+.resume {
+    padding: 60px;
+    text-align: center;
+    background: #555;
+}
+
+/* Contact */
+.contact {
+    padding: 60px;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+/* Footer */
+.footer {
+    background: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+}
+
+.logo h2 {
+    font-size: 22px;
+}
+
+.logo p {
+    font-size: 12px;
+    color: #ccc;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 18px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+/* Hero Section */
+.hero {
+    background: #555;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    padding: 0 80px;
+    color: white;
+    position: relative;
+}
+
+.hero-content {
+    width: 50%;
+    z-index: 2;
+}
+
+.hero-content h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+/* Button */
+.btn {
+    background: #2d7cff;
+    border: none;
+    padding: 12px 28px;
+    color: white;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Hero Image */
+.hero-image {
+    position: absolute;
+    right: 80px;
+    bottom: 0;
+}
+
+.hero-image img {
+    height: 500px;
+}
+/* About */
+.about {
+    display: flex;
+    padding: 60px 80px;
+    background: #f4f4f4;
+}
+
+.about-img img {
+    width: 250px;
+    margin-right: 40px;
+}
+.skills{
+    text-align: center;
+}
+
+.projects{
+    text-align: center;
+}
+
+.resume{
+    text-align: center;
+}
+
+.contact{
+    text-align:center;
+}
